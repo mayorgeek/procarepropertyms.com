@@ -88,9 +88,11 @@ export default function Contact() {
               <div className="mt-8 bg-gray-200 rounded-2xl h-[300px] overflow-hidden shadow-inner relative">
                 <div className="absolute inset-0 flex items-center justify-center bg-slate-200">
                     <div className="text-center">
-                        <MapPin className="w-12 h-12 text-slate-400 mx-auto mb-2" />
+                        {/* <MapPin className="w-12 h-12 text-slate-400 mx-auto mb-2" />
                         <p className="text-slate-500 font-medium">Interactive Map Would Load Here</p>
-                        <p className="text-slate-400 text-sm">Seaside Estate, Badore-Ajah, Lagos</p>
+                        <p className="text-slate-400 text-sm">Seaside Estate, Badore-Ajah, Lagos</p> */}
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31713.360004551014!2d3.5782420843689215!3d6.500151183480159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bfb328af12319%3A0x1e48fa1ce3930059!2sSeaside%20Residential%20Estate!5e0!3m2!1sen!2sng!4v1768514640626!5m2!1sen!2sng" width="800" height="600" className="border-0" loading="lazy"></iframe>
                     </div>
                 </div>
               </div>
