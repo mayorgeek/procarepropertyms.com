@@ -83,11 +83,11 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4"
             >
-              <Link href="https://wa.link/vl5c1w">
+              <a href="https://wa.link/vl5c1w">
                 <Button size="lg" className="h-14 px-8 text-lg bg-accent text-primary hover:bg-white hover:text-primary transition-all font-semibold rounded-xl w-full sm:w-auto">
                   Get a Quote
                 </Button>
-              </Link>
+              </a>
               <Link href="/services">
                 <Button size="lg" variant="outline" className="h-14 px-8 text-lg border-white text-white hover:bg-white hover:text-primary transition-all font-semibold rounded-xl w-full sm:w-auto">
                   Explore Services

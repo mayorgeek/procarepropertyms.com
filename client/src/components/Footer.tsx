@@ -81,7 +81,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Procare Property Management Service. All rights reserved.
           </p>
           <p className="text-gray-500 text-xs">
-            Designed for Excellence
+            Designed by <a href="https://aiotouchsoftwares.com/" className="text-blue-500">Aiotouch Softwares</a>
           </p>
         </div>
       </div>
