@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Montserrat', sans-serif;
+  --font-display: 'Playfair Display', serif;
+
+  /* Procare Flyer Theme: Blue/Cyan/White */
+  --background: 210 20% 98%;
+  --foreground: 222 47% 11%;
+  
+  --primary: 217 85% 31%; /* #00419D approx Deep Blue from logo/flyer */
+  --primary-foreground: 210 40% 98%;
+  
+  --secondary: 195 100% 50%; /* #00C6FF approx Bright Cyan from flyer */
+  --secondary-foreground: 222 47% 11%;
+  
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  
+  --accent: 195 100% 50%; /* Using Cyan as accent to match flyer */
+  --accent-foreground: 222 47% 11%;
+  
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 222 47% 25%;
+
+  --radius: 0.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-bold tracking-tight text-primary;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glass-panel {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+}
