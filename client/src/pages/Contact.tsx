@@ -41,8 +41,8 @@ export default function Contact() {
                 </div>
                 <h3 className="text-xl font-bold font-display text-primary mb-2">Email</h3>
                 <p className="text-muted-foreground mb-4">Send us a detailed message anytime.</p>
-                <a href="mailto:info@procarepm.com" className="text-lg font-semibold text-accent hover:underline">
-                  info@procarepm.com
+                <a href="mailto:info@procarepropertyms.com	" className="text-lg font-semibold text-accent hover:underline">
+                  info@procarepropertyms.com
                 </a>
               </div>
 
